@@ -10,7 +10,7 @@ describe('testowanie wyszukiwarki steam', () => {
     cy.wait(200)
     cy.get('.cart_item_desc > a').contains("Ulepszenie do statusu Prime")
   })
-  it( 'is it possible to search an iteam in steam market', () =>{
+  it( 'Is it possible to search an iteam in steam market', () =>{
     cy.get('.supernav_container > [style="display: block"]').trigger('mouseover')
     cy.get('.supernav_content > .submenu_community > [href="https://steamcommunity.com/market/"]').click()
 
