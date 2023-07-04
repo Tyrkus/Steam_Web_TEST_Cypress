@@ -19,7 +19,7 @@ describe('testowanie wyszukiwarki steam', () => {
       cy.get("#result_0_name").contains("Skrzynia Odrzutu")
     })
   })
-  it('is it possible to switch languages', () => {
+  it('Is it possible to switch languages', () => {
     cy.get("#language_pulldown").click()
     cy.get('[href="?l=german"]').click()
     cy.get("#language_pulldown").click()
